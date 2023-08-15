@@ -15,9 +15,9 @@ console.log(email, password)
 //do not verify email password on the clint side
 //step 4: verify email and password
 if(email==='sontan@baap.com' && password==='secret'){
-    console.log('Valid User')
+    window.location.href = 'js/bank.html';
 }
 else {
-    console.log('Invalid User')
+    alert('Invalid User')
 }
-})
+}) 
